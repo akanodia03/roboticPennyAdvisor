@@ -4,11 +4,13 @@ Instructions:
 
 2. Navigate to C:\ProgramData\MySQL\MySQL Server 5.7\my.conf
 
-3. change the property as secure-file-priv=""
+3. change the property secure-file-priv as secure-file-priv=""
 
 4. execute the SCHEMA.sql to create Database tables.
 
 5 Run the following command to import CSV file.
+
+COMMAND:
 
 LOAD DATA INFILE 'c:/tmp/discounts.csv' 
 INTO TABLE jpmc_hackathon.benefits 
